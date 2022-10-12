@@ -2,6 +2,7 @@ import { ref } from "vue";
 import { defineStore } from "pinia";
 import type { Ref } from "vue";
 import type IPost from "@/types/IPost";
+import poster from "@/assets/poster.jpg";
 
 const fakePosts: IPost[] = [
   {
@@ -17,7 +18,7 @@ const fakePosts: IPost[] = [
     content:
       "Nulla tincidunt, dolor mollis tincidunt interdum, arcu arcu posuere orci, eget ornare metus augue nec ante. Phasellus tempor egestas metus quis ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque condimentum nibh sapien, a varius elit sodales eu. Donec at mi ac urna vehicula venenatis at vitae metus. Integer sit amet iaculis felis. Aenean tincidunt sodales velit, id semper tortor aliquam quis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec lectus dui, lacinia a ligula vitae, accumsan posuere purus.",
     createdAt: new Date().toDateString(),
-    poster: "/poster.jpg",
+    poster: poster,
   },
   {
     id: 3,

@@ -39,6 +39,10 @@ const handleClick = (id: number) => {
   margin-bottom: 2rem;
 }
 
+.post-item:last-child {
+  margin-bottom: 0;
+}
+
 .h-link {
   cursor: pointer;
 }
